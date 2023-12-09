@@ -1,0 +1,4 @@
+#sliderProgress {
+    width: 0%;
+    transition: width 10s linear;
+}

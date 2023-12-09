@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Vondiktion - Coder l'Avenir, Innover Sans Limites">
+        <meta property="og:description" content="Vondiktion est une entreprise de développement de jeux vidéos, de moteurs de jeu vidéo, de sites internets, d'applications webs, d'applications mobiles, et de plugins minecraft.">
+        <meta property="og:image" content="ressources/img/slider1.png">
+        <meta property="og:url" content="https://vondiktion.fr">
+        <meta property="og:type" content="website">
+        <meta property="og:locale" content="fr_FR">
+        <meta property="og:site_name" content="Vondiktion">
+        <title>Vondiktion - Coder l'Avenir, Innover Sans Limites</title>
+
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+        <!-- Import des fichiers CSS -->
+        <link rel="stylesheet" href="ressources/css/keyframes.css">
+        <link rel="stylesheet" href="ressources/css/slider.css">
+        <link rel="stylesheet" href="ressources/css/tooltip.css">
+    </head>
+    <body class="bg-stone-800 h-[500vh] overflow-x-hidden" style="font-family: Roboto Condensed, sans-serif;">
+
+        <nav class="px-8 fixed z-[50] top-8 left-8 right-8 text-white bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] flex items-center justify-between shadow-xl shadow-stone-800/[25%]" style="width: 100% - padding;">
+            <div class="flex items-center gap-3">
+                <h1 class="text-2xl font-bold">VONDIKTION</h1>
+                <p class="text-sm">[ Coder l'Avenir, Innover Sans Limites ]</p>
+            </div>
+            <div class="flex items-center">
+                <div class="group relative px-5 py-3 border-x border-transparent hover:border-white/[15%] hover:bg-white/[5%] cursor-pointer">
+                    <div class="flex items-center gap-3">
+                        <p class="text-md uppercase">Réalisations</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 group-hover:rotate-45 transition-all">
+                            <path fill-rule="evenodd" d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z" clip-rule="evenodd" />
+                        </svg>                              
+                    </div>
+                    <div class="hidden group-hover:block absolute left-0 bg-stone-800/[75%] mt-3 border border-white/[15%] w-[15rem]">
+                        <div class="px-4 py-2 border-b border-transparent hover:border-white/[15%] hover:bg-white/[5%] cursor-pointer">Jeux vidéos</div>
+                        <div class="px-4 py-2 border-y border-transparent hover:border-white/[15%] hover:bg-white/[5%] cursor-pointer">Moteurs de jeu vidéo</div>
+                        <div class="px-4 py-2 border-y border-transparent hover:border-white/[15%] hover:bg-white/[5%] cursor-pointer">Suites logicielles</div>
+                        <div class="px-4 py-2 border-y border-transparent hover:border-white/[15%] hover:bg-white/[5%] cursor-pointer">Sites internets</div>
+                        <div class="px-4 py-2 border-y border-transparent hover:border-white/[15%] hover:bg-white/[5%] cursor-pointer">Applications webs</div>
+                        <div class="px-4 py-2 border-y border-transparent hover:border-white/[15%] hover:bg-white/[5%] cursor-pointer">Applications mobiles</div>
+                        <div class="px-4 py-2 border-t border-transparent hover:border-white/[15%] hover:bg-white/[5%] cursor-pointer">Plugins minecraft</div>
+                    </div>
+                </div>
+                <div class="group relative px-5 py-3 border-x border-transparent hover:border-white/[15%] hover:bg-white/[5%] cursor-pointer">
+                    <div class="flex items-center gap-3">
+                        <p class="text-md uppercase">Newsroom</p>                          
+                    </div>
+                </div>
+                <div class="group relative px-5 py-3 border-x border-transparent hover:border-white/[15%] hover:bg-white/[5%] cursor-pointer">
+                    <div class="flex items-center gap-3">
+                        <p class="text-md uppercase">Studios</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 group-hover:rotate-45 transition-all">
+                            <path fill-rule="evenodd" d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z" clip-rule="evenodd" />
+                        </svg>                              
+                    </div>
+                    <div class="hidden group-hover:block absolute left-0 bg-stone-800/[75%] mt-3 border border-white/[15%] w-[17rem]">
+                        <div class="px-4 py-2 border-b border-transparent hover:border-white/[15%] hover:bg-white/[5%] cursor-pointer">Vondiktion Saint-Gaudens [HQ]</div>
+                        <div class="px-4 py-2 border-y border-transparent hover:border-white/[15%] hover:bg-white/[5%] cursor-pointer">Vondiktion Toulouse - Montredon</div>
+                        <div class="px-4 py-2 border-y border-transparent hover:border-white/[15%] hover:bg-white/[5%] cursor-pointer">Vondiktion Toulouse - Ramonville</div>
+                        <div class="px-4 py-2 border-y border-transparent hover:border-white/[15%] hover:bg-white/[5%] cursor-pointer">Vondiktion Toulouse - Balma</div>
+                        <div class="px-4 py-2 border-y border-transparent hover:border-white/[15%] hover:bg-white/[5%] cursor-pointer">Vondiktion Montpellier</div>
+                        <div class="px-4 py-2 border-t border-transparent hover:border-white/[15%] hover:bg-white/[5%] cursor-pointer">Vondiktion Tarbes</div>
+                    </div>
+                </div>
+                <div class="group relative px-5 py-3 border-x border-transparent hover:border-white/[15%] hover:bg-white/[5%] cursor-pointer">
+                    <div class="flex items-center gap-3">
+                        <p class="text-md uppercase">Entreprise</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 group-hover:rotate-45 transition-all">
+                            <path fill-rule="evenodd" d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z" clip-rule="evenodd" />
+                        </svg>                              
+                    </div>
+                    <div class="hidden group-hover:block absolute right-0 bg-stone-800/[75%] mt-3 border border-white/[15%] w-[17rem]">
+                        <div class="px-4 py-2 border-b border-transparent hover:border-white/[15%] hover:bg-white/[5%] cursor-pointer">Présentation de l'entreprise</div>
+                        <div class="px-4 py-2 border-y border-transparent hover:border-white/[15%] hover:bg-white/[5%] cursor-pointer">Nos offres d'emplois / de stages</div>
+                        <div class="px-4 py-2 border-y border-transparent hover:border-white/[15%] hover:bg-white/[5%] cursor-pointer">Vondiktion Edutech</div>
+                        <div class="px-4 py-2 border-y border-transparent hover:border-white/[15%] hover:bg-white/[5%] cursor-pointer">Espace investisseur</div>
+                        <div class="px-4 py-2 border-t border-transparent hover:border-white/[15%] hover:bg-white/[5%] cursor-pointer">Vondiktion Connect 2024</div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section id="sliderMain" class="relative w-full p-8 h-[100vh] overflow-hidden">
+            <div class="absolute z-[10] bottom-8 right-8 text-white flex items-center justify-end gap-2">
+                <!-- Bouton pour passer à la slide précédente -->
+                <div id="sliderMain_button_previous" class="group p-2 text-white bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] active:scale-95 transition-all cursor-pointer shadow-xl shadow-stone-800/[25%]">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                    </svg>             
+                </div>  
+                <!-- Compteur de slide  (1/?), (2/?), (3/?)... -->
+                <div class="group p-2 text-white bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] transition-all  shadow-xl shadow-stone-800/[25%]">
+                    <p id="sliderMain_text_counter" class="text-sm"></p>
+                </div>
+                <!-- Bouton pour passer à la slide suivante -->
+                <div id="sliderMain_button_next" class="group p-2 text-white bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] active:scale-95 transition-all cursor-pointer shadow-xl shadow-stone-800/[25%]">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>                          
+                </div>
+            </div>
+            <div class="absolute z-[10] bottom-8 left-8 text-white sm:w-[40rem] w-[100% - padding] bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] shadow-xl shadow-stone-800/[25%] transition-all overflow-hidden">
+                <div id="sliderMain_text_upertitle" class="w-full"></div>
+                <div class="w-full p-8">
+                    <p id="sliderMain_text_title" class="text-4xl font-bold"></p>
+                    <p id="sliderMain_text_subtitle" class="text-sm italic"></p>
+                    <p id="sliderMain_text_content" class="mt-3 text-sm line-clamp-3"></p>
+                    <div id="sliderMain_text_button" class="mt-5 flex items-center gap-3"></div>
+                </div>
+                <div class="w-full">
+                    <div id="sliderProgress" class="h-1 bg-white/[25%]"></div>
+                </div>
+            </div>
+            <div id="sliderMain_img_right" class="absolute z-[5] bottom-0 right-0"></div>
+        </section>
+
+        <section class="w-full p-8 grid grid-cols-3 gap-8">
+            <div class="group col-span-2">
+                <div class="w-full h-[20rem] bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] shadow-xl shadow-stone-800/[25%] transition-all overflow-hidden">
+                    <div class="w-full h-full bg-center bg-cover" style="background-image: url('ressources/img/slider1.png');">
+                        <div class="relative w-full h-full bg-gradient-to-t from-stone-800/[85%] via-stone-800/[60%] to-stone-800/[25%]">
+                            <div class="absolute bottom-8 left-8 text-white">
+                                <p class="text-xl font-bold">Développement de jeux vidéos</p>
+                                <p class="mt-3 text-sm line-clamp-5">Vondiktion développe des jeux vidéos pour les entreprises, les particuliers, et les collectivités. Nous développons des jeux vidéos pour les ordinateurs, les consoles de salon, les consoles portables, les smartphones, et les tablettes.</p>
+                                <div class="hidden mt-5 group-hover:flex items-center gap-3">
+                                    <div class="p-2 text-white bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] active:scale-95 transition-all cursor-pointer shadow-xl shadow-stone-800/[25%]">
+                                        <p class="text-sm">En savoir plus</p>
+                                    </div>
+                                    <div class="p-2 text-white bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] active:scale-95 transition-all cursor-pointer shadow-xl shadow-stone-800/[25%]">
+                                        <p class="text-sm">Voir nos jeux vidéos</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="group col-span-1">
+                <div class="w-full h-[20rem] bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] shadow-xl shadow-stone-800/[25%] transition-all overflow-hidden">
+                    <div class="w-full h-full bg-center bg-cover" style="background-image: url('ressources/img/slider2.png');">
+                        <div class="relative w-full h-full bg-gradient-to-t from-stone-800/[85%] via-stone-800/[60%] to-stone-800/[25%]">
+                            <div class="absolute bottom-8 left-8 text-white">
+                                <p class="text-xl font-bold">Développement de moteurs de jeu vidéo</p>
+                                <p class="mt-3 text-sm line-clamp-5">Vondiktion développe des moteurs de jeu vidéo pour les entreprises, les particuliers, et les collectivités. Nous développons des moteurs de jeu vidéo pour les ordinateurs, les consoles de salon, les consoles portables, les smartphones, et les tablettes.</p>
+                                <div class="hidden mt-5 group-hover:flex items-center gap-3">
+                                    <div class="p-2 text-white bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] active:scale-95 transition-all cursor-pointer shadow-xl shadow-stone-800/[25%]">
+                                        <p class="text-sm">En savoir plus</p>
+                                    </div>
+                                    <div class="p-2 text-white bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] active:scale-95 transition-all cursor-pointer shadow-xl shadow-stone-800/[25%]">
+                                        <p class="text-sm">Voir nos moteurs de jeux vidéos</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="group col-span-1">
+                <div class="w-full h-[20rem] bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] shadow-xl shadow-stone-800/[25%] transition-all overflow-hidden">
+                    <div class="w-full h-full bg-center bg-cover" style="background-image: url('ressources/img/slider3.png');">
+                        <div class="relative w-full h-full bg-gradient-to-t from-stone-800/[85%] via-stone-800/[60%] to-stone-800/[25%]">
+                            <div class="absolute bottom-8 left-8 text-white">
+                                <p class="text-xl font-bold">Développement de suites logicielles</p>
+                                <p class="mt-3 text-sm line-clamp-5">Vondiktion développe des suites logicielles pour les entreprises, les particuliers, et les collectivités. Nous développons des suites logicielles pour les ordinateurs, les smartphones, et les tablettes.</p>
+                                <div class="hidden mt-5 group-hover:flex items-center gap-3">
+                                    <div class="p-2 text-white bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] active:scale-95 transition-all cursor-pointer shadow-xl shadow-stone-800/[25%]">
+                                        <p class="text-sm">En savoir plus</p>
+                                    </div>
+                                    <div class="p-2 text-white bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] active:scale-95 transition-all cursor-pointer shadow-xl shadow-stone-800/[25%]">
+                                        <p class="text-sm">Voir nos suites logicielles</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="group col-span-2">
+                <div class="w-full h-[20rem] bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] shadow-xl shadow-stone-800/[25%] transition-all overflow-hidden">
+                    <div class="w-full h-full bg-center bg-cover" style="background-image: url('ressources/img/slider4.png');">
+                        <div class="relative w-full h-full bg-gradient-to-t from-stone-800/[85%] via-stone-800/[60%] to-stone-800/[25%]">
+                            <div class="absolute bottom-8 left-8 text-white">
+                                <p class="text-xl font-bold">Développement d'applications webs</p>
+                                <p class="mt-3 text-sm line-clamp-5">Vondiktion développe des applications webs pour les entreprises, les particuliers, et les collectivités. Nous développons des applications webs pour les ordinateurs, les smartphones, et les tablettes.</p>
+                                <div class="hidden mt-5 group-hover:flex items-center gap-3">
+                                    <div class="p-2 text-white bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] active:scale-95 transition-all cursor-pointer shadow-xl shadow-stone-800/[25%]">
+                                        <p class="text-sm">En savoir plus</p>
+                                    </div>
+                                    <div class="p-2 text-white bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] active:scale-95 transition-all cursor-pointer shadow-xl shadow-stone-800/[25%]">
+                                        <p class="text-sm">Voir nos applications webs</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="group col-span-1">
+                <div class="w-full h-[20rem] bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] shadow-xl shadow-stone-800/[25%] transition-all overflow-hidden">
+                    <div class="w-full h-full bg-center bg-cover" style="background-image: url('ressources/img/slider3.png');">
+                        <div class="relative w-full h-full bg-gradient-to-t from-stone-800/[85%] via-stone-800/[60%] to-stone-800/[25%]">
+                            <div class="absolute bottom-8 left-8 text-white">
+                                <p class="text-xl font-bold">Développement de sites internets</p>
+                                <p class="mt-3 text-sm line-clamp-5">Vondiktion développe des sites internets pour les entreprises, les particuliers, et les collectivités. Nous développons des sites internets pour les ordinateurs, les smartphones, et les tablettes.</p>
+                                <div class="hidden mt-5 group-hover:flex items-center gap-3">
+                                    <div class="p-2 text-white bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] active:scale-95 transition-all cursor-pointer shadow-xl shadow-stone-800/[25%]">
+                                        <p class="text-sm">En savoir plus</p>
+                                    </div>
+                                    <div class="p-2 text-white bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] active:scale-95 transition-all cursor-pointer shadow-xl shadow-stone-800/[25%]">
+                                        <p class="text-sm">Voir nos sites internets</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="group col-span-1">
+                <div class="w-full h-[20rem] bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] shadow-xl shadow-stone-800/[25%] transition-all overflow-hidden">
+                    <div class="w-full h-full bg-center bg-cover" style="background-image: url('ressources/img/slider5.png');">
+                        <div class="relative w-full h-full bg-gradient-to-t from-stone-800/[85%] via-stone-800/[60%] to-stone-800/[25%]">
+                            <div class="absolute bottom-8 left-8 text-white">
+                                <p class="text-xl font-bold">Développement d'applications mobiles</p>
+                                <p class="mt-3 text-sm line-clamp-5">Vondiktion développe des applications mobiles pour les entreprises, les particuliers, et les collectivités. Nous développons des applications mobiles pour les smartphones, et les tablettes.</p>
+                                <div class="hidden mt-5 group-hover:flex items-center gap-3">
+                                    <div class="p-2 text-white bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] active:scale-95 transition-all cursor-pointer shadow-xl shadow-stone-800/[25%]">
+                                        <p class="text-sm">En savoir plus</p>
+                                    </div>
+                                    <div class="p-2 text-white bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] active:scale-95 transition-all cursor-pointer shadow-xl shadow-stone-800/[25%]">
+                                        <p class="text-sm">Voir nos applications mobiles</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="group col-span-1">
+                <div class="w-full h-[20rem] bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] shadow-xl shadow-stone-800/[25%] transition-all overflow-hidden">
+                    <div class="w-full h-full bg-center bg-cover" style="background-image: url('ressources/img/bg.png');">
+                        <div class="relative w-full h-full bg-gradient-to-t from-stone-800/[85%] via-stone-800/[60%] to-stone-800/[25%]">
+                            <div class="absolute bottom-8 left-8 text-white">
+                                <p class="text-xl font-bold">Développement de plugins minecraft</p>
+                                <p class="mt-3 text-sm line-clamp-5">Vondiktion développe des plugins minecraft pour les entreprises, les particuliers, et les collectivités. Nous développons des plugins minecraft pour les serveurs minecraft.</p>
+                                <div class="hidden mt-5 group-hover:flex items-center gap-3">
+                                    <div class="p-2 text-white bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] active:scale-95 transition-all cursor-pointer shadow-xl shadow-stone-800/[25%]">
+                                        <p class="text-sm">En savoir plus</p>
+                                    </div>
+                                    <div class="p-2 text-white bg-stone-800/[75%] backdrop-blur-xl border border-white/[15%] active:scale-95 transition-all cursor-pointer shadow-xl shadow-stone-800/[25%]">
+                                        <p class="text-sm">Voir nos plugins minecraft</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Import des fichiers JS -->
+        <script src="ressources/js/slider.js"></script>
+        <script src="ressources/js/tooltip.js"></script>
+        
+    </body>
+</html>

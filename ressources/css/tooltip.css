@@ -1,0 +1,25 @@
+.tooltip {
+    position: relative; /* Nécessaire pour positionner le tooltip */
+    cursor: pointer; /* Optionnel, pour changer le curseur */
+}
+
+.tooltip::after {
+    content: attr(data-tooltip); /* Utilisez le contenu de data-tooltip */
+    position: absolute;
+    bottom: 125%; /* Positionnez au-dessus du bouton */
+    left: 50%; /* Centrez le tooltip */
+    transform: translateX(-50%); /* Ajustez le centrage */
+    background-color: #292524; /* Couleur de fond du tooltip */
+    color: white; /* Couleur du texte */
+    padding: 5px 10px; /* Espace autour du texte */
+    border: 1px solid rgba(255, 255, 255, 0.15); /* Bordure grise autour du tooltip */
+    font-size: 14px; /* Taille de la police */
+    white-space: nowrap; /* Empêche le texte de passer à la ligne */
+    opacity: 0; /* Rend le tooltip invisible par défaut */
+    transition: opacity 0.25s; /* Animation d'opacité */
+    pointer-events: none; /* Empêche le tooltip d'interférer avec les clics */
+}
+
+.tooltip:hover::after {
+    opacity: 1; /* Rendez le tooltip visible au survol */
+}
