@@ -34,12 +34,13 @@ var sliderMain = {
     index: 0,
     // Fonction pour changer de background de slide
     backgroundImages: [
-        "ressources/img/crossed2.png",
+        "ressources/img/bgbg.png",
         "ressources/img/tga.png",
         "ressources/img/slider1.png",
         "ressources/img/bg.png",
         "ressources/img/slider4.png",
         "ressources/img/slider3.png",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/1400/2c7aa5177428193.64d5e23323a31.jpg",
     ],
     // Fonction pour changer de titre de slide
     textTitles: [
@@ -49,6 +50,7 @@ var sliderMain = {
         "Projet Merveille",
         "AMFIV : Gallion",
         "AMFIV : Chapitre 1",
+        "QuantumLeap v2.0.5",
     ],
     // Fonction pour changer de sous-titre de slide
     textSubtitles: [
@@ -58,6 +60,7 @@ var sliderMain = {
         "[ Nouvelle IP en développement chez Vondiktion ]",
         "[ Des aventures en haute mer ]",
         "[ Une aventure dans un monde fantastique ]",
+        "[ Nouvelle mise à jour disponible ]",
     ],
     // Fonction pour changer de sur-titre de slide
     textUppertitles: [
@@ -67,6 +70,7 @@ var sliderMain = {
         '',
         '',
         '',
+        '<div class="w-full px-3 py-2 text-xs text-white border-b border-white/[15%]">Téléchargement disponible dès maintenant et gratuitement</div>',
     ],
     // Fonction pour changer de contenu de slide
     textContents: [
@@ -76,6 +80,7 @@ var sliderMain = {
         'Projet Merveille est une nouvelle IP développée par Vondiktion. Ce jeu est un jeu de rôle en monde ouvert, dans un univers fantastique. Le jeu est actuellement en développement, et sera disponible sur PC, PS5, Xbox Series X, Nintendo Switch. Nous recherchons actuellement des développeurs pour nous aider à développer ce jeu.',
         'A Memory From IronHeart Valley : Gallion est un jeu d\'aventure en monde ouvert, dans un univers de pirates. Le jeu est actuellement en développement, et sera disponible sur PC, PS5, Xbox Series X, Nintendo Switch. Le jeu est prévu pour 2024.',
         'A Memory From IronHeart Valley : Chapitre 1 est un jeu d\'aventure en monde ouvert, dans un univers fantastique. Le jeu est actuellement en développement, et sera disponible sur PC, PS5, Xbox Series X, Nintendo Switch. Le jeu est prévu pour 2024.',
+        'QuantumLeap est un moteur de jeu 3D et 2D développé par Vondiktion. Il est utilisé pour les jeux de Vondiktion, et est disponible gratuitement pour les développeurs indépendants. La version 2.0.5 est disponible dès maintenant sur la page \'Téléchargements\' dans la section QuantumLeap.',
     ],
     // Fonction pour changer de bouton de slide
     buttons: [
@@ -90,6 +95,8 @@ var sliderMain = {
         '<button class="px-4 py-2 text-sm text-white bg-stone-800/[75%] border border-white/[15%] active:scale-95 transition-all cursor-pointer shadow-xl shadow-stone-800/[25%] hover:border-white/[25%]">Aller sur la page du jeu</button><button class="px-4 py-2 text-sm text-white bg-stone-800/[75%] border border-white/[15%] active:scale-95 transition-all cursor-pointer shadow-xl shadow-stone-800/[25%] flex items-center gap-3 hover:border-white/[25%]"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-5" fill="white"><title>Steam</title><path d="M11.979 0C5.678 0 .511 4.86.022 11.037l6.432 2.658c.545-.371 1.203-.59 1.912-.59.063 0 .125.004.188.006l2.861-4.142V8.91c0-2.495 2.028-4.524 4.524-4.524 2.494 0 4.524 2.031 4.524 4.527s-2.03 4.525-4.524 4.525h-.105l-4.076 2.911c0 .052.004.105.004.159 0 1.875-1.515 3.396-3.39 3.396-1.635 0-3.016-1.173-3.331-2.727L.436 15.27C1.862 20.307 6.486 24 11.979 24c6.627 0 11.999-5.373 11.999-12S18.605 0 11.979 0zM7.54 18.21l-1.473-.61c.262.543.714.999 1.314 1.25 1.297.539 2.793-.076 3.332-1.375.263-.63.264-1.319.005-1.949s-.75-1.121-1.377-1.383c-.624-.26-1.29-.249-1.878-.03l1.523.63c.956.4 1.409 1.5 1.009 2.455-.397.957-1.497 1.41-2.454 1.012H7.54zm11.415-9.303c0-1.662-1.353-3.015-3.015-3.015-1.665 0-3.015 1.353-3.015 3.015 0 1.665 1.35 3.015 3.015 3.015 1.663 0 3.015-1.35 3.015-3.015zm-5.273-.005c0-1.252 1.013-2.266 2.265-2.266 1.249 0 2.266 1.014 2.266 2.266 0 1.251-1.017 2.265-2.266 2.265-1.253 0-2.265-1.014-2.265-2.265z"/></svg>Aller sur la page Steam</button>',
 
         '<button class="px-4 py-2 text-sm text-white bg-stone-800/[75%] border border-white/[15%] active:scale-95 transition-all cursor-pointer shadow-xl shadow-stone-800/[25%] hover:border-white/[25%]">Aller sur la page du jeu</button><button class="px-4 py-2 text-sm text-white bg-stone-800/[75%] border border-white/[15%] active:scale-95 transition-all cursor-pointer shadow-xl shadow-stone-800/[25%] flex items-center gap-3 hover:border-white/[25%]"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-5" fill="white"><title>Steam</title><path d="M11.979 0C5.678 0 .511 4.86.022 11.037l6.432 2.658c.545-.371 1.203-.59 1.912-.59.063 0 .125.004.188.006l2.861-4.142V8.91c0-2.495 2.028-4.524 4.524-4.524 2.494 0 4.524 2.031 4.524 4.527s-2.03 4.525-4.524 4.525h-.105l-4.076 2.911c0 .052.004.105.004.159 0 1.875-1.515 3.396-3.39 3.396-1.635 0-3.016-1.173-3.331-2.727L.436 15.27C1.862 20.307 6.486 24 11.979 24c6.627 0 11.999-5.373 11.999-12S18.605 0 11.979 0zM7.54 18.21l-1.473-.61c.262.543.714.999 1.314 1.25 1.297.539 2.793-.076 3.332-1.375.263-.63.264-1.319.005-1.949s-.75-1.121-1.377-1.383c-.624-.26-1.29-.249-1.878-.03l1.523.63c.956.4 1.409 1.5 1.009 2.455-.397.957-1.497 1.41-2.454 1.012H7.54zm11.415-9.303c0-1.662-1.353-3.015-3.015-3.015-1.665 0-3.015 1.353-3.015 3.015 0 1.665 1.35 3.015 3.015 3.015 1.663 0 3.015-1.35 3.015-3.015zm-5.273-.005c0-1.252 1.013-2.266 2.265-2.266 1.249 0 2.266 1.014 2.266 2.266 0 1.251-1.017 2.265-2.266 2.265-1.253 0-2.265-1.014-2.265-2.265z"/></svg>Aller sur la page Steam</button>',
+
+        '<button class="px-4 py-2 text-sm text-white bg-stone-800/[75%] border border-white/[15%] active:scale-95 transition-all cursor-pointer shadow-xl shadow-stone-800/[25%] hover:border-white/[25%]">Aller sur la page du moteur de jeu</button><button class="px-4 py-2 text-sm text-white bg-stone-800/[75%] border border-white/[15%] active:scale-95 transition-all cursor-pointer shadow-xl shadow-stone-800/[25%] hover:border-white/[25%]">Voir les changelogs de la nouvelle version</button>',
         
     ],
     // Fonction pour changer d'image à droite de slide
@@ -100,6 +107,7 @@ var sliderMain = {
         '',
         '',
         '<img src="ressources/img/vince.png" class="w-[20rem] mr-28 object-cover object-center">',
+        '',
     ],
     init: function() {
         this.preloadImages();
